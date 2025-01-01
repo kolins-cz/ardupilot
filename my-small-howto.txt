@@ -1,0 +1,11 @@
+git reset --hard origin/my-custom-builds
+git remote add upstream https://github.com/ArduPilot/ardupilot.git
+git fetch upstream
+git checkout -b my-custom-builds-new b094390943f77273c182320fb66e80a0688096d7
+git cherry-pick <your-custom-commit-hash>
+# Resolve any conflicts if necessary
+git add <resolved-files>
+git cherry-pick --continue
+
+./waf configure --board MatekF405-STD
+./waf plane
