@@ -163,3 +163,6 @@ define HAL_OS_FATFS_IO 1
 include ../include/minimize_fpv_osd.inc
 
 define DEFAULT_NTF_LED_TYPES 257
+
+
+include extra_hwdef.dat
