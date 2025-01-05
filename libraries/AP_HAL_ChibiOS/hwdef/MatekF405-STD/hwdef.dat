@@ -14,5 +14,3 @@ define CH_CFG_ST_RESOLUTION 32
 
 # Add S7 Pad for MatekF405 STD
 PB8  TIM4_CH3 TIM4 PWM(7) GPIO(56) NODMA
-
-include extra_hwdef.dat

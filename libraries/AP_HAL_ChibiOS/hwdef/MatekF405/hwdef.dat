@@ -163,3 +163,5 @@ define HAL_PARACHUTE_ENABLED 0
 # save some flash
 include ../include/minimize_fpv_osd.inc
 
+# adjust functions for me
+include extra_hwdef.dat
