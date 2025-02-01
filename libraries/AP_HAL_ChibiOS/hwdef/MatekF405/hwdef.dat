@@ -165,3 +165,4 @@ include ../include/minimize_fpv_osd.inc
 
 # adjust functions for me
 include extra_hwdef.dat
+PA4 EXTERN_GPIO1 OUTPUT GPIO(90)
