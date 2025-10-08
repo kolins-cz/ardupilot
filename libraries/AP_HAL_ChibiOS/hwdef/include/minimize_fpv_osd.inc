@@ -34,4 +34,4 @@ undef AP_BATTERY_SMBUS_ENABLED
 define AP_BATTERY_SMBUS_ENABLED 0
 
 
-include ../include/minimize_fpv_osd.inc
+include ../include/extra_hwdef.dat
